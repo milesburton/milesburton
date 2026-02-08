@@ -1,40 +1,50 @@
-# Hey, I'm Miles
+# Hi, I’m Miles
 
-Software engineer who spends way too much time thinking about satellites and radio signals.
+I’m a software engineer with a long-standing interest in real-time systems, software-defined radio, and self-hosted infrastructure.
 
-## What I'm Currently Building
+Over the years I’ve built and operated a mix of trading platforms, satellite reception systems, APRS and LoRa nodes, and small-scale energy and compute setups, with an emphasis on reliability, observability, and maintainability.
 
-I maintain **[Night Watch](https://github.com/milesburton/night-watch)** – an automated system for receiving and decoding satellite signals. It captures METEOR-M weather imagery and ISS SSTV transmissions, runs predictions for satellite passes, and serves a web dashboard with live specs and a 3D globe.
+## What I Build
 
-The project handles the entire workflow: predicting passes, controlling an RTL-SDR receiver, performing FFT analysis in real-time, and decoding the received signals. It'll happily run on a Raspberry Pi in the corner of a room if you let it.
+I usually work on systems that cover the full stack, from hardware and data capture through to processing, monitoring, and user-facing tools. This includes:
 
-## Tech
+- automated satellite and weather image reception  
+- SDR decoding pipelines (LRPT, SSTV, APRS)  
+- self-hosted monitoring and visualisation dashboards  
+- homelab and edge-compute infrastructure  
+- small renewable and battery-backed power systems  
 
-- **Languages**: TypeScript, Node.js, React
-- **Infrastructure**: Docker, Docker Compose, GitHub Actions
-- **Radio stuff**: RTL-SDR, FFT processing, LRPT/SSTV decoding, orbital mechanics
+Most of these are designed to run unattended on modest hardware.
 
-## Actually Interested In
+## Interests
 
-- Satellite signal reception and processing
-- Orbital mechanics and pass predictions
-- Software Defined Radio (SDR) in general
-- How amateur radio enthusiasts do things
-- Building infrastructure that just works
-- Making tools accessible to people doing cool things
+- software-defined radio and satellite communications  
+- real-time and event-driven software  
+- small-scale infrastructure (RF, power, compute)  
+- automation, monitoring, and testing  
+- building practical tools that others can use  
 
-## Currently Learning
+## Tech I Use
 
-- More sophisticated signal processing approaches
-- Scaling across multiple SDR devices
-- Container orchestration for hobbyist infrastructure
+**Languages**  
+TypeScript, Node.js, React, Python
 
-## Find Me
+**Infrastructure**  
+Docker, Docker Compose, Dev Containers, GitHub Actions, Linux
 
-- GitHub: Obvious place, lots of projects here
-- Email: Check my profile
-- Amateur radio: Always happy to chat about antenna design or satellite passes
+**Systems**  
+WebSockets, streaming pipelines, observability, automation
 
----
+**RF / Embedded**  
+RTL-SDR, LRPT/SSTV, APRS, antenna design
 
-Feel free to reach out if you're doing anything interesting with satellites, SDR, or backend systems. Always keen to see what others are building.
+## Around the Web
+
+Website: https://www.milesburton.com  
+Blog: https://blog.milesburton.com  
+YouTube: https://www.youtube.com/@M0LHA  
+Amateur radio: M0LHA
+
+## Contact
+
+Email is on my profile. If you’re working on SDR, infrastructure, or self-hosted systems and would like to compare notes, feel free to get in touch.
